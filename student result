@@ -1,0 +1,26 @@
+class student:
+    name="sindhu"
+    roll_number=10
+    marks=[84,89,90,]
+    def calculate(self):
+        total=sum(self.marks)
+        average=total/3
+        if average>=90:
+            grade="A"
+        elif average>=75:
+            grade="B"
+        elif average>=60:
+            grade="C"
+        else:
+            grade="D"
+        print("Name:",self.name)
+        print("Roll number:",self.roll_number)
+        print("Marks:",self.marks)
+        print("Total Marks:",total)
+        print("average:",average)
+        print("grade:",grade)
+s=student()
+s.calculate()
+         
+        
+        
